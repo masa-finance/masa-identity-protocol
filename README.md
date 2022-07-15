@@ -110,3 +110,27 @@ Where `{id}` is a unique 32 character ID that is numeric characters only
 Token ID’s for Tokenized Loans have the `4` prefix for the TokenID and metadata `{ID}`
 
 `40000000000000000000000000000000`
+
+# Masa ERC-1155 API
+
+In order to seamlessly interact with the Masa ERC-1155 API. Masa implements an API that is used to perform all actions on the deployed ERC-1155 smart contract. The Masa ERC-1155 contract is upgradable. The required actions are as follows:
+
+# ERC-1155 base URI
+
+`https://api.masa.finance/v1.0/{endpoint}/{id}.json`
+
+## ERC-1155 Endpoints
+### WIP
+- mint
+    - `https://api.masa.finance/v1.0/mint`
+- burn
+    - `https://api.masa.finance/v1.0/burn`
+- transfer
+    - `https://api.masa.finance/v1.0/transfer`
+- GET transactions by hash
+    - `https://api.masa.finance/v1.0/transaction/{hash}`
+- GET transaction by address
+    - `https://api.masa.finance/v1.0/transaction/{address}`
+- GET tokens by address
+- GET token account balance
+- GET token metadata
