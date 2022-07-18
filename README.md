@@ -151,5 +151,5 @@ POST:
 
 ### Additional Resources
 
-[Soul Bound Identity](https://github.com/masa-finance/nft-credit-report/blob/3a9c36dacc0bbc51141530ca52dd49da8adb9035/docs/SoulBoundIdentity.md)
-[Soul Bound Credit Report](https://github.com/masa-finance/nft-credit-report/blob/3a9c36dacc0bbc51141530ca52dd49da8adb9035/docs/SoulBoundCreditReport.md)
+- [Soul Bound Identity](https://github.com/masa-finance/nft-credit-report/blob/3a9c36dacc0bbc51141530ca52dd49da8adb9035/docs/SoulBoundIdentity.md)
+- [Soul Bound Credit Report](https://github.com/masa-finance/nft-credit-report/blob/3a9c36dacc0bbc51141530ca52dd49da8adb9035/docs/SoulBoundCreditReport.md)
