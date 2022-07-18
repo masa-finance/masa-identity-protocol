@@ -1,14 +1,20 @@
 # Introduction
 
-In order to create the first decentralized credit bureau Masa implements a set of soulbound NFT Tokens using the ERC-1155 standard. The following components are attributed to a users account during each step of the lending lifecycle. Metadata attributed to a soulbound token encrypted and can only be accessed with permission from the owner through the Masa API. 
+In order to create the first decentralized credit bureau Masa implements a set of soulbound NFT Tokens using the ERC-721
+standard. The following components are attributed to a users account during each step of the lending lifecycle. Metadata
+attributed to a soulbound token encrypted and can only be accessed with permission from the owner through the Masa API.
 
 ## Identity
 
-The Masa Identity is a soulbound NFT Identity that is generated for a user when they sign up to the Masa protocol and includes the following information:
+The Masa Identity is a soulbound NFT Identity that is generated for a user when they sign up to the Masa protocol and
+includes the following information:
 
 ## Credit Report
 
-The Masa NFT Credit Report enables the bridging and aggregation of on and off-chain data in order to create a hybrid decentralized credit report. The Masa credit report can include the following information depending on which region you are located (read a a full list of supported countries here): 
+The Masa NFT Credit Report enables the bridging and aggregation of on and off-chain data in order to create a hybrid
+decentralized credit report. The Masa credit report can include the following information depending on which region you
+are located (read a a full list of supported
+countries [here](https://developers.masa.finance/docs/supported-countries)):
 
 - Credit Bureau Data
 - Bank Transaction Data
@@ -18,11 +24,13 @@ The Masa NFT Credit Report enables the bridging and aggregation of on and off-ch
 
 ## Tokenized Loan Applications
 
-Masa tokenizes all loan applications that are attributed to a Masa Indentity and users account as a soulbound token. Once a loan application is approved a tokenized loan is created.
+Masa tokenizes all loan applications that are attributed to a Masa Indentity and users account as a soulbound token.
+Once a loan application is approved a tokenized loan is created.
 
 ## Tokenized Loans
 
-Masa tokenizes all loans that are attributed to a Masa Identity and users account. Loan applications can have the following states that get updated throughout their lifecycle: 
+Masa tokenizes all loans that are attributed to a Masa Identity and users account. Loan applications can have the
+following states that get updated throughout their lifecycle:
 
 - pending
 - approved
@@ -37,7 +45,9 @@ Masa tokenizes all loans that are attributed to a Masa Identity and users accoun
 
 # Masa API
 
-Masa’s souldbound NFTs have their metadata stored in the Masa API which is updated in real time with verified data throughout the lifecycle of the user. The Masa API has the following endpoints available with metadata data schema’s for attribution to the souldbound NFT’s URI. 
+Masa’s souldbound NFTs have their metadata stored in the Masa API which is updated in real time with verified data
+throughout the lifecycle of the user. The Masa API has the following endpoints available with metadata data schema’s for
+attribution to the souldbound NFT’s URI.
 
 ## Identity
 
@@ -47,9 +57,9 @@ Masa’s souldbound NFTs have their metadata stored in the Masa API which is upd
 
 ### **JSON Schema**
 
-A unique JSON schema is created for each user with the following format. 
+A unique JSON schema is created for each user with the following format.
 
-`https://api.masa.finance/v1.0/credit-report/{id}.json`
+`GET https://api.masa.finance/v1.0/identity/{id}.json`
 
 Where `{id}` is a unique 32 character ID that is numeric characters only
 
@@ -65,9 +75,9 @@ Token ID’s for Identity have the `1` prefix for the TokenID and metadata `{ID}
 
 ### **JSON Schema**
 
-A unique JSON schema is created for each user with the following format. 
+A unique JSON schema is created for each user with the following format.
 
-`https://api.masa.finance/v1.0/credit-report/{id}.json`
+`GET https://api.masa.finance/v1.0/credit-report/{id}.json`
 
 Where `{id}` is a unique 32 character ID that is numeric characters only
 
@@ -83,9 +93,9 @@ Token ID’s for Identity have the `2` prefix for the TokenID and metadata `{ID}
 
 ### **JSON Schema**
 
-A unique JSON schema is created for each user with the following format. 
+A unique JSON schema is created for each user with the following format.
 
-`https://api.masa.finance/v1.0/loan-applications/{id}.json`
+`GET https://api.masa.finance/v1.0/loan-applications/{id}.json`
 
 Where `{id}` is a unique 32 character ID that is numeric characters only
 
@@ -101,9 +111,9 @@ Token ID’s for Tokenized Loan Applications have the `3` prefix for the TokenID
 
 ### **JSON Schema**
 
-A unique JSON schema is created for each user with the following format. 
+A unique JSON schema is created for each user with the following format.
 
-`https://api.masa.finance/v1.0/loans/{id}.json`
+`GET https://api.masa.finance/v1.0/loans/{id}.json`
 
 Where `{id}` is a unique 32 character ID that is numeric characters only
 
@@ -111,26 +121,26 @@ Token ID’s for Tokenized Loans have the `4` prefix for the TokenID and metadat
 
 `40000000000000000000000000000000`
 
-# Masa ERC-1155 API
+# Masa Soul Bound NFT API
 
-In order to seamlessly interact with the Masa ERC-1155 API. Masa implements an API that is used to perform all actions on the deployed ERC-1155 smart contract. The Masa ERC-1155 contract is upgradable. The required actions are as follows:
+In order to seamlessly interact with the Masa Sould Bound NFT API. Masa implements an API that is used to perform all
+actions
+on the deployed SBT smart contract. The Masa SBT contract is upgradable. The required actions are as follows:
 
-# ERC-1155 base URI
+# Mase Soul Bound NFT base URI
 
 `https://api.masa.finance/v1.0/{endpoint}/{id}.json`
 
-## ERC-1155 Endpoints
-### WIP
-- mint
-    - `https://api.masa.finance/v1.0/mint`
-- burn
-    - `https://api.masa.finance/v1.0/burn`
-- transfer
-    - `https://api.masa.finance/v1.0/transfer`
-- GET transactions by hash
-    - `https://api.masa.finance/v1.0/transaction/{hash}`
-- GET transaction by address
-    - `https://api.masa.finance/v1.0/transaction/{address}`
-- GET tokens by address
-- GET token account balance
-- GET token metadata
+## SBT Endpoints
+
+### Functions
+
+The Masa API has control over some functions of the SBT. Some of those functions can used via this the Masa API
+
+### `mint` - Mints a given SBT
+Endpoint: `POST https://api.masa.finance/v1.0/mint`
+
+Interface:
+```
+
+``` 
