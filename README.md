@@ -13,7 +13,7 @@ includes the following information:
 
 The Masa NFT Credit Report enables the bridging and aggregation of on and off-chain data in order to create a hybrid
 decentralized credit report. The Masa credit report can include the following information depending on which region you
-are located (read a a full list of supported
+are located (read a full list of supported
 countries [here](https://developers.masa.finance/docs/supported-countries)):
 
 - Credit Bureau Data
@@ -24,7 +24,7 @@ countries [here](https://developers.masa.finance/docs/supported-countries)):
 
 ## Tokenized Loan Applications
 
-Masa tokenizes all loan applications that are attributed to a Masa Indentity and users account as a soulbound token.
+Masa tokenizes all loan applications that are attributed to a Masa Identity and users account as a soulbound token.
 Once a loan application is approved a tokenized loan is created.
 
 ## Tokenized Loans
@@ -45,9 +45,9 @@ following states that get updated throughout their lifecycle:
 
 # Masa API
 
-Masa’s souldbound NFTs have their metadata stored in the Masa API which is updated in real time with verified data
+Masa’s soulbound NFTs have their metadata stored in the Masa API which is updated in real time with verified data
 throughout the lifecycle of the user. The Masa API has the following endpoints available with metadata data schema’s for
-attribution to the souldbound NFT’s URI.
+attribution to the soulbound NFT’s URI.
 
 ## Identity
 
@@ -123,11 +123,11 @@ Token ID’s for Tokenized Loans have the `4` prefix for the TokenID and metadat
 
 # Masa Soul Bound NFT API
 
-In order to seamlessly interact with the Masa Sould Bound NFT API. Masa implements an API that is used to perform all
+In order to seamlessly interact with the Masa Soul Bound NFT API. Masa implements an API that is used to perform all
 actions
 on the deployed SBT smart contract. The Masa SBT contract is upgradable. The required actions are as follows:
 
-# Mase Soul Bound NFT base URI
+# Masa Soul Bound NFT base URI
 
 `https://api.masa.finance/v1.0/{endpoint}/{id}.json`
 
@@ -135,13 +135,15 @@ on the deployed SBT smart contract. The Masa SBT contract is upgradable. The req
 
 ### Functions
 
-The Masa API has control over some functions of the SBT. Some of those functions can used via this the Masa API
+The Masa API has control over some functions of the SBT. Some of those functions can be used via this the Masa API
 
 ### `mint` - Mints a given SBT and transfers it to the users wallet
 
+![Unidirectional Dataflow](assets/unidirectional_data_flow.png)
+
 Endpoint: `POST https://api.masa.finance/v1.0/mint`
 
-POST:
+Request `POST`:
 
 ```json
 {
@@ -149,7 +151,18 @@ POST:
 }
 ``` 
 
+Response:
+
+```json
+{
+  "success": true,
+  "tokenAddress": "0x0ffF769274a4fDa68Bf6E99FE0982c4c26B1A4A0",
+  "tokenId": "1"
+}
+```
+
 ### Additional Resources
 
-- [Soul Bound Identity](https://github.com/masa-finance/nft-credit-report/blob/3a9c36dacc0bbc51141530ca52dd49da8adb9035/docs/SoulBoundIdentity.md)
-- [Soul Bound Credit Report](https://github.com/masa-finance/nft-credit-report/blob/3a9c36dacc0bbc51141530ca52dd49da8adb9035/docs/SoulBoundCreditReport.md)
+- [Soul Bound Identity](https://github.com/masa-finance/nft-credit-report/blob/bd57ca5f3c6220f92096303a9bc3d48a618800bd/docs/SoulBoundIdentity.md)
+- [Soul Bound Credit Report](https://github.com/masa-finance/nft-credit-report/blob/bd57ca5f3c6220f92096303a9bc3d48a618800bd/docs/SoulBoundCreditReport.md)
+- [Soul Linker](https://github.com/masa-finance/nft-credit-report/blob/bd57ca5f3c6220f92096303a9bc3d48a618800bd/docs/SoulLinker.md)
