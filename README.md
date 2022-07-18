@@ -67,6 +67,58 @@ Token ID’s for Identity have the `1` prefix for the TokenID and metadata `{ID}
 
 `10000000000000000000000000000000`
 
+Public Request `GET https://api.masa.finance/v1.0/identity/17012826615246396599027510140925.json`:
+
+Response:
+
+```json
+{
+  "name": "Alice",
+  "imageUrl": "https://i.etsystatic.com/26285683/r/il/a9f0bd/2807723995/il_340x270.2807723995_nzaw.jpg"
+}
+```
+
+Gated Request `POST https://api.masa.finance/v1.0/identity/17012826615246396599027510140925.json`:
+
+```json
+{
+  "address": "0xAlice",
+  "signature": "0x21fbf0696d5e0aa2ef41a2b4ffb623bcaf070461d61cf7251c74161f82fec3a4370854bc0a34b3ab487c1bc021cd318c734c51ae29374f2beb0e6f2dd49b4bf41c"
+}
+``` 
+
+Response:
+
+```json
+{
+  "name": "Alice",
+  "imageUrl": "https://i.etsystatic.com/26285683/r/il/a9f0bd/2807723995/il_340x270.2807723995_nzaw.jpg",
+  "lastName": "Cooper",
+  "loan_applications": [
+    {
+      "index": 1,
+      "application_id": "0xf51ff2eec7fa35462a4eff2ece7d17d88586569a?a=27012826615246396599027510140925"
+    },
+    {
+      "index": 2,
+      "application_id": "0xf51ff2eec7fa35462a4eff2ece7d17d88586569a?a=27012826615246396599027510140925"
+    }
+  ],
+  "loans": [
+    {
+      "index": 1,
+      "loan_id": "0xf51ff2eec7fa35462a4eff2ece7d17d88586569a?a=37012826615246396599027510140925"
+    }
+  ],
+  "associated_accounts": [
+    "0x7ef964Ac45ff620d13d4aB130aCC5bFf7261009F",
+    "0x25553828F22bDD19a20e4F12F052903Cb474a335",
+    "0x2c5B9dd42d0510C43f1d6d672bD56A7DE0716c91",
+    "0xAlice"
+  ]
+}
+```
+
 ## Credit Report
 
 ### Metadata URI
@@ -131,7 +183,7 @@ on the deployed SBT smart contract. The Masa SBT contract is upgradable. The req
 
 `https://api.masa.finance/v1.0/{endpoint}/{id}.json`
 
-## SBT Endpoints
+## Masa Soul Bound NFT Endpoints
 
 ### Functions
 
@@ -157,7 +209,7 @@ Response:
 {
   "success": true,
   "tokenAddress": "0x0ffF769274a4fDa68Bf6E99FE0982c4c26B1A4A0",
-  "tokenId": "1"
+  "tokenId": "17012826615246396599027510140925"
 }
 ```
 
