@@ -137,10 +137,19 @@ on the deployed SBT smart contract. The Masa SBT contract is upgradable. The req
 
 The Masa API has control over some functions of the SBT. Some of those functions can used via this the Masa API
 
-### `mint` - Mints a given SBT
+### `mint` - Mints a given SBT and transfers it to the users wallet
+
 Endpoint: `POST https://api.masa.finance/v1.0/mint`
 
-Interface:
-```
+POST:
 
+```json
+{
+  "type": "identity | credit-report | loan-application | loan"
+}
 ``` 
+
+### Additional Resources
+
+[Soul Bound Identity](https://github.com/masa-finance/nft-credit-report/blob/3a9c36dacc0bbc51141530ca52dd49da8adb9035/docs/SoulBoundIdentity.md)
+[Soul Bound Credit Report](https://github.com/masa-finance/nft-credit-report/blob/3a9c36dacc0bbc51141530ca52dd49da8adb9035/docs/SoulBoundCreditReport.md)
