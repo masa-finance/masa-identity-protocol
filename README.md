@@ -191,7 +191,11 @@ The Masa API has control over some functions of the SBT. Some of those functions
 
 ### `mint` - Mints a given SBT and transfers it to the users wallet
 
-![Unidirectional Dataflow](assets/unidirectional_data_flow.png)
+Create Identity:
+![Unidirectional Dataflow Identity](assets/unidirectional_data_flow_identity.png)
+
+Create Credit Report:
+![Unidirectional Dataflow Create Report](assets/unidirectional_data_flow_credit_report.png)
 
 Endpoint: `POST https://api.masa.finance/v1.0/mint`
 
