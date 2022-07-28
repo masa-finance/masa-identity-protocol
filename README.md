@@ -223,3 +223,26 @@ Response:
 - [Soul Bound Credit Report](https://github.com/masa-finance/nft-credit-report/blob/bd57ca5f3c6220f92096303a9bc3d48a618800bd/docs/SoulBoundCreditReport.md)
 - [Soul Linker](https://github.com/masa-finance/nft-credit-report/blob/bd57ca5f3c6220f92096303a9bc3d48a618800bd/docs/SoulLinker.md)
 
+# Relevant Repositories
+
+## Frontends
+
+- [Web App](https://github.com/masa-finance/masa-web-app)
+- [Mobile App](https://github.com/masa-finance/masa-mobile-app)
+
+## Backend
+
+- [SDK](https://github.com/masa-finance/masa-sdk)
+- [API Middleware](https://github.com/masa-finance/masa-api-middleware)
+- [API](https://github.com/masa-finance/masa-api)
+
+## Contracts
+
+- [Lending Contracts](https://github.com/masa-finance/masa-contracts-lending)
+- [Identity Contracts](https://github.com/masa-finance/masa-contracts-identity)
+
+## Blockchain
+
+- [Node](https://github.com/masa-finance/masa-node-v1.0)
+- [Node UI](https://github.com/masa-finance/node-ui)
+- [Node Cluster](https://github.com/masa-finance/masa-node-cluster)
