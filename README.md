@@ -59,7 +59,7 @@ attribution to the soulbound NFT’s URI.
 
 A unique JSON schema is created for each user with the following format.
 
-`GET https://api.masa.finance/v1.0/identity/{id}.json`
+`GET https://api.masa.finance/v1.0/identity/{id}`
 
 Where `{id}` is a unique 32 character ID that is numeric characters only
 
@@ -67,7 +67,7 @@ Token ID’s for Identity have the `1` prefix for the TokenID and metadata `{ID}
 
 `10000000000000000000000000000000`
 
-Public Request `GET https://api.masa.finance/v1.0/identity/17012826615246396599027510140925.json`:
+Public Request `GET https://api.masa.finance/v1.0/identity/17012826615246396599027510140925`:
 
 Response:
 
@@ -78,7 +78,7 @@ Response:
 }
 ```
 
-Gated Request `POST https://api.masa.finance/v1.0/identity/17012826615246396599027510140925.json`:
+Gated Request `POST https://api.masa.finance/v1.0/identity/17012826615246396599027510140925`:
 
 ```json
 {
@@ -129,7 +129,7 @@ Response:
 
 A unique JSON schema is created for each user with the following format.
 
-`GET https://api.masa.finance/v1.0/credit-report/{id}.json`
+`GET https://api.masa.finance/v1.0/credit-report/{id}`
 
 Where `{id}` is a unique 32 character ID that is numeric characters only
 
@@ -147,7 +147,7 @@ Token ID’s for Identity have the `2` prefix for the TokenID and metadata `{ID}
 
 A unique JSON schema is created for each user with the following format.
 
-`GET https://api.masa.finance/v1.0/loan-applications/{id}.json`
+`GET https://api.masa.finance/v1.0/loan-applications/{id}`
 
 Where `{id}` is a unique 32 character ID that is numeric characters only
 
@@ -165,7 +165,7 @@ Token ID’s for Tokenized Loan Applications have the `3` prefix for the TokenID
 
 A unique JSON schema is created for each user with the following format.
 
-`GET https://api.masa.finance/v1.0/loans/{id}.json`
+`GET https://api.masa.finance/v1.0/loans/{id}`
 
 Where `{id}` is a unique 32 character ID that is numeric characters only
 
@@ -181,7 +181,7 @@ on the deployed SBT smart contract. The Masa SBT contract is upgradable. The req
 
 # Masa Soul Bound NFT base URI
 
-`https://api.masa.finance/v1.0/{endpoint}/{id}.json`
+`https://api.masa.finance/v1.0/{endpoint}/{id}`
 
 ## Masa Soul Bound NFT Endpoints
 
@@ -222,3 +222,4 @@ Response:
 - [Soul Bound Identity](https://github.com/masa-finance/nft-credit-report/blob/bd57ca5f3c6220f92096303a9bc3d48a618800bd/docs/SoulBoundIdentity.md)
 - [Soul Bound Credit Report](https://github.com/masa-finance/nft-credit-report/blob/bd57ca5f3c6220f92096303a9bc3d48a618800bd/docs/SoulBoundCreditReport.md)
 - [Soul Linker](https://github.com/masa-finance/nft-credit-report/blob/bd57ca5f3c6220f92096303a9bc3d48a618800bd/docs/SoulLinker.md)
+
