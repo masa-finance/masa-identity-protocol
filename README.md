@@ -247,7 +247,7 @@ Response:
 - [Node UI](https://github.com/masa-finance/node-ui)
 - [Node Cluster](https://github.com/masa-finance/masa-node-cluster)
 
-## URLS
+## Relevant Links
 
 - [Masa App - Production](http://app.masa.finance)
 - [Masa App - Staging](http://stage.app.masa.finance)
