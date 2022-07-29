@@ -229,6 +229,7 @@ Response:
 
 - [Web App](https://github.com/masa-finance/masa-web-app) | [Changelog](https://github.com/masa-finance/masa-web-app/blob/dev/CHANGELOG.md)
 - [Mobile App](https://github.com/masa-finance/masa-mobile-app) | [Changelog]
+- [Contracts Dashboard](https://github.com/masa-finance/contract-stats) | [Changelog](https://github.com/masa-finance/contract-stats/blob/master/CHANGELOG.md)
 
 ## Backend
 
