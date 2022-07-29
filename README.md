@@ -227,7 +227,7 @@ Response:
 
 ## Frontends
 
-- [Web App](https://github.com/masa-finance/masa-web-app) | [Changelog]
+- [Web App](https://github.com/masa-finance/masa-web-app) | [Changelog](https://github.com/masa-finance/masa-web-app/blob/dev/CHANGELOG.md)
 - [Mobile App](https://github.com/masa-finance/masa-mobile-app) | [Changelog]
 
 ## Backend
