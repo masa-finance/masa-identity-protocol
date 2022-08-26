@@ -173,17 +173,17 @@ Token ID’s for Tokenized Loans have the `4` prefix for the TokenID and metadat
 
 `40000000000000000000000000000000`
 
-# Masa Soul Bound NFT API
+# Masa Soulbound NFT API
 
-In order to seamlessly interact with the Masa Soul Bound NFT API. Masa implements an API that is used to perform all
+In order to seamlessly interact with the Masa Soulbound NFT API. Masa implements an API that is used to perform all
 actions
 on the deployed SBT smart contract. The Masa SBT contract is upgradable. The required actions are as follows:
 
-# Masa Soul Bound NFT base URI
+# Masa Soulbound NFT base URI
 
 `https://api.masa.finance/v1.0/{endpoint}/{id}`
 
-## Masa Soul Bound NFT Endpoints
+## Masa Soulbound NFT Endpoints
 
 ### Functions
 
@@ -219,9 +219,10 @@ Response:
 
 ### Additional Resources
 
-- [Soul Bound Identity](https://github.com/masa-finance/nft-credit-report/blob/bd57ca5f3c6220f92096303a9bc3d48a618800bd/docs/SoulBoundIdentity.md)
-- [Soul Bound Credit Report](https://github.com/masa-finance/nft-credit-report/blob/bd57ca5f3c6220f92096303a9bc3d48a618800bd/docs/SoulBoundCreditReport.md)
-- [Soul Linker](https://github.com/masa-finance/nft-credit-report/blob/bd57ca5f3c6220f92096303a9bc3d48a618800bd/docs/SoulLinker.md)
+- [Soulbound Identity](https://github.com/masa-finance/masa-contracts-identity/blob/main/docs/SoulboundIdentity.md)
+- [Soulbound Credit Report](https://github.com/masa-finance/masa-contracts-identity/blob/main/docs/SoulboundCreditReport.md)
+- [Soul Name](https://github.com/masa-finance/masa-contracts-identity/blob/main/docs/SoulName.md)
+- [Soul Linker](https://github.com/masa-finance/masa-contracts-identity/blob/main/docs/SoulLinker.md)
 
 # Relevant Repositories
 
