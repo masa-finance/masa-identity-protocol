@@ -228,20 +228,27 @@ Response:
 
 ## Frontends
 
-- [Web App](https://github.com/masa-finance/masa-web-app) | [Changelog](https://github.com/masa-finance/masa-web-app/blob/dev/CHANGELOG.md)
-- [Mobile App](https://github.com/masa-finance/masa-mobile-app) | [Changelog]
-- [Contracts Dashboard](https://github.com/masa-finance/contract-stats) | [Changelog](https://github.com/masa-finance/contract-stats/blob/master/CHANGELOG.md)
+- [Web App](https://github.com/masa-finance/masa-web-app)
+  | [Changelog](https://github.com/masa-finance/masa-web-app/blob/dev/CHANGELOG.md)
+- [Mobile App](https://github.com/masa-finance/masa-mobile-app)
+  | [Changelog](https://github.com/masa-finance/masa-mobile-app/blob/main/CHANGELOG.md)
+- [Contracts Dashboard](https://github.com/masa-finance/contract-stats)
+  | [Changelog](https://github.com/masa-finance/contract-stats/blob/master/CHANGELOG.md)
 
 ## Backend
 
-- [SDK](https://github.com/masa-finance/masa-sdk) | [Changelog](https://github.com/masa-finance/masa-sdk/blob/master/CHANGELOG.md)
-- [API Middleware](https://github.com/masa-finance/masa-api-middleware) | [Changelog](https://github.com/masa-finance/masa-api-middleware/blob/dev/CHANGELOG.md)
+- [SDK](https://github.com/masa-finance/masa-sdk)
+  | [Changelog](https://github.com/masa-finance/masa-sdk/blob/master/CHANGELOG.md)
+- [API Middleware](https://github.com/masa-finance/masa-api-middleware)
+  | [Changelog](https://github.com/masa-finance/masa-api-middleware/blob/dev/CHANGELOG.md)
 - [API](https://github.com/masa-finance/masa-api) | [Changelog]
 
 ## Contracts
 
-- [Lending Contracts](https://github.com/masa-finance/masa-contracts-lending) | [Changelog](https://github.com/masa-finance/masa-contracts-lending/blob/master/CHANGELOG.md)
-- [Identity Contracts](https://github.com/masa-finance/masa-contracts-identity) | [Changelog](https://github.com/masa-finance/masa-contracts-identity/blob/main/CHANGELOG.md)
+- [Lending Contracts](https://github.com/masa-finance/masa-contracts-lending)
+  | [Changelog](https://github.com/masa-finance/masa-contracts-lending/blob/master/CHANGELOG.md)
+- [Identity Contracts](https://github.com/masa-finance/masa-contracts-identity)
+  | [Changelog](https://github.com/masa-finance/masa-contracts-identity/blob/main/CHANGELOG.md)
 
 ## Blockchain
 
@@ -251,6 +258,16 @@ Response:
 
 ## Relevant Links
 
-- [Masa App - Production](http://app.masa.finance)
-- [Masa App - Staging](http://stage.app.masa.finance)
-- [Masa App - Dev](http://dev.app.masa.finance)
+### Personal Finance Manager
+
+- [Masa App - Production](https://app.masa.finance)
+- [Masa App - Staging](https://beta.masa.finance)
+- [Masa App - Test](https://test.masa.finance)
+- [Masa App - Dev](https://dev.masa.finance)
+
+### Soulbound Identity
+
+- [Masa Identity App - Production](http://app.claimyoursoul.masa.finance)
+- [Masa Identity App - Staging](http://beta.claimyoursoul.masa.finance)
+- [Masa Identity App - Test](http://test.claimyoursoul.masa.finance)
+- [Masa Identity App - Dev](https://dev.claimyoursoul.masa.finance/)
