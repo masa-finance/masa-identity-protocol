@@ -228,7 +228,8 @@ Response:
 
 ## Frontends
 
-- [Soulbound Token App](https://github.com/masa-finance/masa-sbt) | [Changelog]
+- [Soulbound Token App](https://github.com/masa-finance/masa-sbt)
+  | [Changelog](https://github.com/masa-finance/masa-sbt/blob/dev/CHANGELOG.md)
 - [Web App](https://github.com/masa-finance/masa-web-app)
   | [Changelog](https://github.com/masa-finance/masa-web-app/blob/dev/CHANGELOG.md)
 - [Mobile App](https://github.com/masa-finance/masa-mobile-app)
