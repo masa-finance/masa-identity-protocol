@@ -228,6 +228,7 @@ Response:
 
 ## Frontends
 
+- [Soulbound Token App](https://github.com/masa-finance/masa-sbt) | [Changelog]
 - [Web App](https://github.com/masa-finance/masa-web-app)
   | [Changelog](https://github.com/masa-finance/masa-web-app/blob/dev/CHANGELOG.md)
 - [Mobile App](https://github.com/masa-finance/masa-mobile-app)
@@ -267,7 +268,7 @@ Response:
 
 ### Soulbound Identity
 
-- [Masa Identity App - Production](http://app.claimyoursoul.masa.finance)
+- [Masa Identity App - Production](http://claimyoursoul.masa.finance)
 - [Masa Identity App - Staging](http://beta.claimyoursoul.masa.finance)
 - [Masa Identity App - Test](http://test.claimyoursoul.masa.finance)
 - [Masa Identity App - Dev](https://dev.claimyoursoul.masa.finance/)
