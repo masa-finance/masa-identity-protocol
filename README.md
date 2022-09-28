@@ -53,13 +53,13 @@ attribution to the soulbound NFT’s URI.
 
 ### Metadata URI
 
-`https://api.masa.finance/v1.0/identity/`
+`https://metadata.masa.finance/v1.0/identity/`
 
 ### **JSON Schema**
 
 A unique JSON schema is created for each user with the following format.
 
-`GET https://api.masa.finance/v1.0/identity/{id}`
+`GET https://metadata.masa.finance/v1.0/identity/{id}`
 
 Where `{id}` is a unique 32 character ID that is numeric characters only
 
@@ -67,7 +67,7 @@ Token ID’s for Identity have the `1` prefix for the TokenID and metadata `{ID}
 
 `10000000000000000000000000000000`
 
-Public Request `GET https://api.masa.finance/v1.0/identity/17012826615246396599027510140925`:
+Public Request `GET https://metadata.masa.finance/v1.0/identity/17012826615246396599027510140925`:
 
 Response:
 
@@ -78,7 +78,7 @@ Response:
 }
 ```
 
-Gated Request `POST https://api.masa.finance/v1.0/identity/17012826615246396599027510140925`:
+Gated Request `POST https://metadata.masa.finance/v1.0/identity/17012826615246396599027510140925`:
 
 ```json
 {
@@ -123,13 +123,13 @@ Response:
 
 ### Metadata URI
 
-`https://api.masa.finance/v1.0/credit-report/`
+`https://metadata.masa.finance/v1.0/credit-report/`
 
 ### **JSON Schema**
 
 A unique JSON schema is created for each user with the following format.
 
-`GET https://api.masa.finance/v1.0/credit-report/{id}`
+`GET https://metadata.masa.finance/v1.0/credit-report/{id}`
 
 Where `{id}` is a unique 32 character ID that is numeric characters only
 
@@ -141,13 +141,13 @@ Token ID’s for Identity have the `2` prefix for the TokenID and metadata `{ID}
 
 ### Metadata URI
 
-`https://api.masa.finance/v1.0/loan-applications/`
+`https://metadata.masa.finance/v1.0/loan-applications/`
 
 ### **JSON Schema**
 
 A unique JSON schema is created for each user with the following format.
 
-`GET https://api.masa.finance/v1.0/loan-applications/{id}`
+`GET https://metadata.masa.finance/v1.0/loan-applications/{id}`
 
 Where `{id}` is a unique 32 character ID that is numeric characters only
 
@@ -159,13 +159,13 @@ Token ID’s for Tokenized Loan Applications have the `3` prefix for the TokenID
 
 ### Metadata URI
 
-`https://api.masa.finance/v1.0/loans/`
+`https://metadata.masa.finance/v1.0/loans/`
 
 ### **JSON Schema**
 
 A unique JSON schema is created for each user with the following format.
 
-`GET https://api.masa.finance/v1.0/loans/{id}`
+`GET https://metadata.masa.finance/v1.0/loans/{id}`
 
 Where `{id}` is a unique 32 character ID that is numeric characters only
 
@@ -181,7 +181,7 @@ on the deployed SBT smart contract. The Masa SBT contract is upgradable. The req
 
 # Masa Soulbound NFT base URI
 
-`https://api.masa.finance/v1.0/{endpoint}/{id}`
+`https://metadata.masa.finance/v1.0/{endpoint}/{id}`
 
 ## Masa Soulbound NFT Endpoints
 
@@ -197,7 +197,7 @@ Create Identity:
 Create Credit Report:
 ![Unidirectional Dataflow Create Report](assets/unidirectional_data_flow_credit_report.png)
 
-Endpoint: `POST https://api.masa.finance/v1.0/mint`
+Endpoint: `POST https://metadata.masa.finance/v1.0/mint`
 
 Request `POST`:
 
