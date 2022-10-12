@@ -20,6 +20,19 @@ interface IIdentity {
 }
 ```
 
+## Soul Name
+
+The metadata for the Soul Name contract can be
+found [here](https://github.com/masa-finance/masa-contracts-identity/blob/main/metadata/SoulName.json)
+
+Endpoint: `ar://<arweave id>`
+
+See [here](./soul-name/metadata.json) for a sample
+
+```typescript
+// tbd
+```
+
 ## Credit Report
 
 Endpoint: `https://metadata.masa.finance/v1.0/credit-report/<TokenId>.json`
