@@ -1,5 +1,5 @@
 ---
-name: Custom issue template
+name: Bug Bounty Report
 about: Describe this issue template's purpose here.
 title: "[BUG BOUNTY]"
 labels: bug
