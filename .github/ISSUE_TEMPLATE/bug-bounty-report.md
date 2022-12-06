@@ -1,6 +1,6 @@
 ---
 name: Bug Bounty Report
-about: Describe this issue template's purpose here.
+about: Create a report to qualify for the bug bounty.
 title: "[BUG BOUNTY]"
 labels: bug
 assignees: miquelcabot, H34D, teslashibe, Luka-Loncar, hide-on-bush-x, im-khem, aaronknott
