@@ -22,7 +22,7 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
           source-directory: 'docs'
-          target-directory: 'docs/masa/masa-protocol'
+          target-directory: 'docs/protocol'
           destination-github-username: 'masa-finance'
           destination-repository-name: 'docs'
           user-email: 13647606+H34D@users.noreply.github.com
